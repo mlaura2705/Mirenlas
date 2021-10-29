@@ -1,0 +1,68 @@
+$border: none;
+$border-b : 1px solid black;
+
+@mixin formulario ($flex,$justify,$padding) {
+    display: $flex;
+    justify-content: $justify;
+    padding: $padding;
+    input{
+        border: $border;
+        border-bottom: $border-b;
+    }
+}
+@mixin genpais ($display,$justify,$padding) {
+    display: $display;
+    justify-content: $justify;
+    padding: $padding;
+}
+@mixin genpais2 ($display,$justify,$padding,$flexdirection) {
+    display: $display;
+    justify-content: $justify;
+    padding: $padding;
+    flex-direction: $flexdirection;
+}
+.formulario {
+        width: auto;
+        text-align: center;
+
+        &__nombre {
+            @include formulario(flex,center,10px 0px)
+            }
+        &__apellido{
+            @include formulario(flex,center,10px 0px)
+            }
+        &__genero {
+            @include genpais(flex,center,10px 0px)
+            }
+        &__pais{
+            @include genpais(flex,center,10px 0px)
+            }
+        &__telefono{
+            @include genpais(flex,center,10px 0px)
+            }
+        &__contacto{
+            @include genpais2(flex,center,10px 0px,column)
+            }
+        &__email input{
+            border: none;
+            border-bottom: 1px solid black;
+            }
+        &__btn{
+            display: flex;
+            justify-content: center;
+            padding: 10px 0px;
+            input{
+                margin: 0px 20px;
+                background-color: #ffff;
+                color: #000;
+                border: 1px solid black;
+                padding: 10px;
+                border-radius: 10px;
+                &:hover{
+                background-color:$bg_violeta;
+                }
+            }
+        }
+}
+
+

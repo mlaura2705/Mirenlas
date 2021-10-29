@@ -1,0 +1,338 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+}
+
+.logo {
+  text-align: center;
+  background-color: white;
+}
+
+.navbar {
+  background-color: #64334d;
+  width: 90%;
+  padding: 15px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+.navbar ul li a:hover {
+  color: #383535;
+}
+
+h1 {
+  color: #64334d;
+  font-family: 'Fleur De Leah', cursiva;
+  text-align: center;
+  font-size: 4rem;
+}
+
+main .banner {
+  background-image: url("/img/banner7.jpeg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+
+main .contenedor-img {
+  text-align: center;
+  position: relative;
+  padding: 10px  0px;
+}
+
+main .productos {
+  width: 15%;
+  display: inline-block;
+  margin-right: 10px;
+  padding: 5px;
+}
+
+main .productos img {
+  width: 100%;
+}
+
+footer h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  letter-spacing: 0.5em;
+}
+
+footer h4 {
+  text-align: center;
+}
+
+footer h6 {
+  text-align: center;
+  word-spacing: 8px;
+}
+
+footer .contacto {
+  text-align: center;
+  position: relative;
+  margin-top: 5%;
+}
+
+footer .envios {
+  text-align: center;
+  margin-top: 20px;
+  position: relative;
+}
+
+footer .redes {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+footer .footerCalzado {
+  background: -webkit-gradient(linear, left top, left bottom, from(#dad8d8), color-stop(#c2bebe), color-stop(#afaeaf), color-stop(#857385), color-stop(#534b53), to(#423942));
+  background: linear-gradient(#dad8d8, #c2bebe, #afaeaf, #857385, #534b53, #423942);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 20px;
+  font-family: cursive;
+}
+
+.formulario {
+  width: auto;
+  text-align: center;
+}
+
+.formulario__nombre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+}
+
+.formulario__nombre input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.formulario__apellido {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+}
+
+.formulario__apellido input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.formulario__genero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+}
+
+.formulario__pais {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+}
+
+.formulario__telefono {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+}
+
+.formulario__contacto {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.formulario__email input {
+  border: none;
+  border-bottom: 1px solid black;
+}
+
+.formulario__btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 10px 0px;
+}
+
+.formulario__btn input {
+  margin: 0px 20px;
+  background-color: #ffff;
+  color: #000;
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.formulario__btn input:hover {
+  background-color: #64334d;
+}
+
+body main .sale-title h5 {
+  color: #000;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body main .carousel-inner .sale {
+  color: #000;
+}
+
+body main .carousel-item .saleimg img {
+  width: 100%;
+  height: 100%;
+}
+
+body header .contenedor-nav {
+  padding: 0px;
+}
+
+body main .calzado {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body main .calzado .calzado__nombre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+body main .calzado .calzado__precio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+body main .calzado img {
+  width: 250px;
+  opacity: 0.9;
+  border: 2px double #7c197c;
+  margin: 15px;
+}
+
+body main .calzado img:hover {
+  opacity: 1;
+  border: #000 double 2px;
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.2, 1.2);
+}
+
+.indumentaria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f1e8fa;
+}
+
+.indumentaria .indumentaria_nombre {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.indumentaria .indumentaria_precio {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1rem;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.indumentaria img {
+  width: 250px;
+  border: 2px double #7c197c;
+  opacity: 0.9;
+  margin: 15px;
+}
+
+.indumentaria img:hover {
+  opacity: 1;
+  border: #000 solid 2px;
+  -webkit-transform: scale(1.2, 1.2);
+  transform: scale(1.1, 1.1);
+}
+
+.submenu-styles {
+  border: none;
+  background: #FFF;
+}
+
+.submenu-styles li a:hover {
+  background-color: initial !important;
+  color: #af34af !important;
+}
+
+.color a:hover {
+  color: #8a8585 !important;
+}
+/*# sourceMappingURL=style.css.map */

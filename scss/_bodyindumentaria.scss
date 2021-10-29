@@ -1,0 +1,30 @@
+.indumentaria {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f1e8fa;
+  &_nombre{
+    @include estilo (Verdana, Geneva, Tahoma, sans-serif,1rem, 1rem 0, center)
+  }
+  &_precio{
+    @include estilo (Verdana, Geneva, Tahoma, sans-serif,1rem, 1rem 0, center)
+  }
+  img {
+    &:hover {
+      opacity: 1;
+      border: $bg_texto solid 2px;
+      -webkit-transform: scale(1.2, 1.2);
+      transform: scale(1.1, 1.1);
+      @include imagen (250px,2px double $bg_borde,0.9,15px)
+    }
+  }
+}

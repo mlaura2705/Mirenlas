@@ -1,0 +1,34 @@
+@import "colores";
+@import "body";
+@import "header";
+@import "main";
+@import "footer";
+@import "bodyform";
+@import "bodysale";
+@import "bodycalzado";
+@import "bodyindumentaria";
+
+@mixin estilo ($fontfamily,$fontsize,$margin,$text) {
+    font-family: $fontfamily;
+    font-size: $fontsize;
+    margin: $margin;
+    text-align: $text;
+}
+@mixin imagen ($width,$border,$opacity,$margin) {
+    width: $width;
+    border: $border;
+    opacity: $opacity;
+    margin: $margin; 
+}
+
+.submenu-styles {
+    border: none;
+    background: #FFF;
+}
+.submenu-styles li a:hover {
+    background-color: initial !important;
+    color: #af34af !important;
+}
+.color a:hover {
+    color: #8a8585 !important;
+}

@@ -1,0 +1,22 @@
+body{
+    main{
+        .sale-title h5{
+            color:$bg_texto;
+            padding: 20px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .carousel-inner{
+            .sale{
+                color:$bg_texto;
+            }
+        }
+        .carousel-item{
+            .saleimg{
+                img{
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

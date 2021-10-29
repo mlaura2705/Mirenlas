@@ -1,0 +1,22 @@
+main{
+    .banner{
+        background-image: url("/img/banner7.jpeg");
+        background-repeat: no-repeat;
+        background-attachment:fixed;
+        background-size: 100%;
+    }
+    .contenedor-img{
+        text-align: center;
+        position: relative;
+        padding: 10px  0px;
+    }
+    .productos{
+        width: 15%;
+        display: inline-block;
+        margin-right: 10px;
+        padding: 5px;
+        img{
+            width: 100%;
+        }
+    }
+}

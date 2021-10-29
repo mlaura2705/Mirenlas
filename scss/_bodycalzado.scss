@@ -1,0 +1,30 @@
+body {
+  header {
+    .contenedor-nav {
+      padding: 0px;
+    }
+  }
+  main {
+    .calzado {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      &__nombre{
+        @include estilo (Verdana, Geneva, Tahoma, sans-serif,1rem, 1rem 0, center)
+      }
+      &__precio {
+        @include estilo (Verdana, Geneva, Tahoma, sans-serif,1rem,1rem 0 ,center)
+      }
+      img{
+          &:hover {
+            opacity: 1;
+            border: $bg_texto double 2px;
+            -webkit-transform: scale(1.2, 1.2);
+            transform: scale(1.2, 1.2);
+            @include imagen (250px,2px double $bg_borde,0.9,15px )
+          }
+      }
+    }
+  }
+}

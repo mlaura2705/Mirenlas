@@ -1,0 +1,47 @@
+footer{
+    h2{
+        font-size: 1.5rem;
+        text-align: center;
+        letter-spacing: 0.5em;
+    }
+    h4{
+        text-align: center;
+    }
+    h6{
+        text-align: center;
+        word-spacing: 8px;
+    }
+    .contacto{
+        text-align: center;
+        position: relative;
+        margin-top: 5%;
+    }
+    .envios{
+        text-align: center;
+        margin-top: 20px;
+        position: relative;
+    }
+    .redes{
+        display: inline-block;
+        margin-right: 20px;
+    }
+    .footerCalzado{
+        background: -webkit-gradient(linear, left top, left bottom, from(#dad8d8), color-stop(#c2bebe), color-stop(#afaeaf), color-stop(#857385), color-stop(#534b53), to(#423942));
+        background: linear-gradient(#dad8d8, #c2bebe, #afaeaf, #857385, #534b53, #423942);
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: row;
+                flex-direction: row;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        padding: 20px;
+        font-family: cursive;
+    }
+}
